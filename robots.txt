@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dilshanjagoda.github.io/sitemap.xml
+
+# Disallow private/internal paths
+Disallow: /src/
