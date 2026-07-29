@@ -1,7 +1,27 @@
 User-agent: *
 Allow: /
 
+# Crawl delay for server load management
+Crawl-delay: 10
+
+# Sitemap
 Sitemap: https://dilshanjagoda.github.io/sitemap.xml
+
+# Google-specific directives
+User-agent: Googlebot
+Allow: /
+Disallow: /src/
+
+User-agent: Googlebot-Image
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.svg
+
+User-agent: Googlebot-Video
+Disallow: /
+
+User-agent: Bingbot
+Allow: /
 
 # Disallow private/internal paths
 Disallow: /src/
